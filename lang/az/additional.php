@@ -1,0 +1,138 @@
+<?php
+
+return [
+    'messages' => [
+        'usernotfound' => "İstifadəçi tapılmadı",
+        "wrongcode" => "Yanlış şifrə",
+        "wronglastpassword" => "Əvvəlki şifrəniz yanlışdır",
+        "updated" => "Məlumat yeniləndi",
+        "added" => "Məlumat əlavə olundu",
+        "deleted" => "Məlumat silindi",
+    ],
+    "forms" => [
+        'email' => "E-mail",
+        'phone' => "Mobil Nömrə",
+        'password' => "Şifrə",
+        'fincode' => "Fərdi İdentifikasiya Nömrəsi",
+        "entercode" => "Kod",
+        "title" => "Başlıq",
+        "content" => "Məzmun",
+        "status" => "Status",
+        "via" => "Vasitə",
+        "buttons" => "Düymələr",
+        "username" => "İstifadəçi adı",
+        "currentpassword" => "İndiki şifrə",
+        "newpassword" => "Yeni Şifrə",
+        "newpassword_confirmation" => "Yeni Şifrə Təkrar",
+        "description" => "Açıqlama",
+        "open_hours" => "İş saatı",
+        'favicon' => "Favicon",
+        'logo' => "Logo",
+        "icon" => "Ikon",
+        "top_service" => "Üst xidmət",
+        "order" => "Sıralama",
+        "send_info" => "Məlumat göndərmək",
+        'pdf' => "PDF",
+        "user" => "İstifadəçi",
+        'time' => "Tarix",
+        "profile_picture" => "Profil şəkli",
+        "company_logo" => "Şirkət logosu",
+        "showondashboard" => "Ana səhifədə göstər",
+        "count" => "Say",
+        "year" => "İl",
+        "type" => "Tip",
+        "color" => "Rəng",
+        "amount" => "Məbləğ",
+        "monthly" => "Aylıq",
+        "yearly" => "İllik",
+        "company_owner_name" => "Təsisçi Ad, Soyad, Ata adı",
+        "company_legal_owner" => "Qanuni Təmsilçinin Adı, Soyad, Ata adı",
+        "company_version" => "Təşkilati-hüquqi forması",
+        "activity_area" => "Fəaliyyət sahəsi",
+        "registry_date"=>"Qeydiyyatdan Keçdiyi Tarix",
+        "payment_time"=>"Ödəniş Tarixi",
+        "payment_end_time"=>"Ödənişin Bitmə Tarixi",
+    ],
+    "pages" => [
+        "welcome" => [
+            "loading" => "Yüklənir",
+            'notifications' => "Bildirişlər",
+            "notpaid" => "Ödəniş etmədiniz! Zəhmət olmazsa Hesabınızı aktivləşdirin",
+            "payments" => "Ödənişlər"
+        ],
+        "payment"=>[
+            "paynow"=>"Ödəniş et",
+            "lastpaymenttime"=>"Son ödəniş tarixi",
+            "lastpaymentended_time"=>"Son ödənişin bitmə tarixi",
+            "payed"=>"Ödəniş edildi!",
+            "notpayed"=>"Ödəniş edilmədi! Bir daha yoxlayın!",
+        ],
+        "login" => [
+            "forgetpassword" => "Şifrəni unutmusunuz?",
+            "entercodeinsms" => "E-mail vasitəsilə göndərilən şifrəni daxil edin",
+            'myprofile' => "Profilim",
+            'settings' => "Parametrlər",
+            'logout' => "Çıxış",
+            "changepassword" => "Şifrəni dəyiş",
+            "chagephoto" => "Şəkili dəyiş",
+            'status_1' => "Aktiv",
+            "status_0" => "Passiv",
+            "company_information" => "Şirkət məlumatları",
+            'notacompany' => "Şirkət deil",
+            "verifyrecaptcha"=>"Robot olmadığınızı təsdiq edin!"
+        ],
+        'notifications' => [
+            'allnotifications' => "Bütün bildirişlər",
+            "readed_1" => "Oxundu",
+            "readed_0" => "Oxunmadı"
+        ],
+        "fallback" => [
+            "pagenotfound" => "Səhifə Tapılmadı!",
+            "gohome" => "Ana səhifəyə qayıt"
+        ],
+        "settings" => [
+            "updateinfo" => "Məlumatları yenilə"
+        ],
+        "services" => [
+            "services" => "Xidmətlər",
+            "add" => "Əlavə et",
+            "edit" => "Yenilə",
+            "service" => 'Xidmət',
+            "notinformation"=>"Daxil edilən məlumat yoxdur"
+        ],
+        "users" => [
+            "users" => "İstifadəçilər",
+            "company_name" => "Şirkət adı",
+            "admins" => "Adminlər",
+            "ownervoeninfo"=>"Sahibkarın Vöen Məlumatı"
+        ],
+        "payments" => [
+            "status_0" => "Ödənilməyib",
+            "status_1" => "Ödənilib",
+        ],
+    ],
+    "buttons" => [
+        "confirmation" => "Təsdiq et",
+        "update" => "Yenilə",
+        "more"=>"Ətraflı",
+        "close"=>"Bağla"
+    ],
+    'urls' => [
+        "welcome" => "Ana səhifə",
+        'login' => "Daxil ol",
+        "standartpages"=>"Standart Səhifə",
+        "contactus"=>"Bizimlə Əlaqə",
+        "etranslate"=>"E-tərcümə",
+        "jobannouncements"=>"İş elanları",
+        "searchingjob"=>"İş axtaranlar",
+        "createyourcv"=>"CV Hazırla",
+        "logintheplatform"=>"Platformaya Giriş",
+        "loginpersonalaccount"=>"Şəxsi kabinetə giriş",
+        "register"=>"Qeydiyyat",
+        "servicetype"=>"Xidmət növü",
+        "servicesahibkar"=>"Sahibkarlara Xidmət (Vergi,Mühasibatlıq,Audit və s.)",
+        "biznesveticaret"=>"Bizness və Ticarət Hazırlığı",
+        "pesehazirliq"=>"Peşə hazırlığı",
+        "xaricdetehsil"=>"Xaricdə təhsil",
+    ],
+];

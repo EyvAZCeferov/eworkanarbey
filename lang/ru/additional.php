@@ -1,0 +1,130 @@
+<?php
+
+return [
+    'messages' => [
+        'usernotfound' => "Пользователь не найден",
+        "wrongcode" => "Неверный пароль",
+        "wronglastpassword" => "Ваш предыдущий пароль неверный",
+        "updated" => "Информация обновлена",
+        "added" => "Данные добавлены",
+        "deleted" => "Данные удалены",
+    ],
+    "forms" => [
+        'email' => "Электронная почта",
+        'phone' => "Номер мобильного телефона",
+        'password' => "Пароль",
+        'fincode' => "Персональный идентификационный номер",
+        "entercode" => "Код",
+        "title" => "Заголовок",
+        "content" => "Контент",
+        "status" => "Статус",
+        "via" => "Автомобиль",
+        "buttons" => "Кнопки",
+        "username" => "Имя пользователя",
+        "currentpassword" => "Текущий пароль",
+        "newpassword" => "Новый пароль",
+        "newpassword_confirmation" => "Повторить новый пароль",
+        "description" => "Описание",
+        "open_hours" => "Часы работы",
+        'favicon' => "Фавикон",
+        'logo' => "Логотип",
+        "icon" => "Значок",
+        "top_service" => "Лучший сервис",
+        "order" => "Сортировать",
+        "send_info" => "Отправить информацию",
+        'pdf' => "PDF",
+        "user" => "пользователь",
+        'time' => "Время",
+        "profile_picture" => "Изображение профиля",
+        "company_logo" => "Логотип компании",
+        "showondashboard" => "Показать на главной странице",
+        "count" => "счет",
+        "year" => "Год",
+        "type" => "Тип",
+        "color" => "Цвет",
+        "amount" => "сумма",
+        "monthly" => "Ежемесячно",
+        "yearly" => "Годовой",
+        "company_owner_name" => "Имя, фамилия, отчество основателя",
+        "company_legal_owner" => "Имя, Фамилия, Отчество законного представителя",
+        "company_version" => "Организационно-правовая форма",
+        "activity_area" => "Область аdктивности",
+        "registry_date"=>"Дата регистрации",
+        "payment_time"=>"Дата платежа",
+        "payment_end_time"=>"Дата платежа",
+    ],
+    "pages" => [
+        "welcome" => [
+            "loading" => "Загрузка",
+            'notifications' => "Уведомления",
+            "notpaid" => "Вы не заплатили! Пожалуйста, активируйте свой Аккаунт",
+            "payments" => "Платежи"
+        ],
+        "login" => [
+            "forgetpassword" => "Забыли пароль?",
+            "entercodeinsms" => "Введите код, отправленный по E-MAIL",
+            'myprofile' => "Мой профиль",
+            'settings' => "Настройки",
+            'logout' => "Выйти",
+            "changepassword" => "Изменить пароль",
+            "chagephoto" => "Изменить фото",
+            'status_1' => "Активный",
+            "status_0" => "Пассивный",
+            "company_information" => "Информация о компании",
+            'notacompany' => "Не компания",
+            "verifyrecaptcha"=>"Подтвердите, что вы не робот!"
+        ],
+        'notifications' => [
+            'allnotifications' => "Все уведомления",
+            "read_1" => "Читать",
+            "read_0" => "Непрочитано"
+        ],
+        "fallback" => [
+            "pagenotfound" => "Страница не найдена!",
+            "gohome" => "Вернуться на главную страницу"
+        ],
+        "settings" => [
+            "updateinfo" => "Информация об обновлении"
+        ],
+        "services" => [
+            "services" => "Услуги",
+            "add" => "Добавить",
+            "edit" => "Обновить",
+            "service" => "Сервис"
+        ],
+        "users" => [
+            "users" => "Пользователи",
+            "company_name" => "Название компании",
+            "admins" => "Админы",
+            "ownervoeninfo"=>"Информация о владельце Voen",
+            "notinformation"=>"Информация не введена"
+        ],
+        "payments" => [
+            "status_0" => "Не оплачено",
+            "status_1" => "Оплачено",
+        ],
+    ],
+    "buttons" => [
+        "confirmation" => "Подтвердить",
+        "update" => "Обновить",
+        "больше" => "Еще"
+    ],
+    'urls' => [
+        "welcome" => "Дом",
+        'login' => "Войти",
+        "standartpages"=>"Стандартная страница",
+        "contactus"=>"Свяжитесь с нами",
+         "etranslate"=>"Электронный перевод",
+         "jobannouncements"=>"Объявления о вакансиях",
+         "searchingjob"=>"Соискатели",
+         "createyourcv"=>"Создать резюме",
+         "logintheplatform"=>"Войти на платформу",
+         "loginpersonalaccount"=>"Войти в личный кабинет",
+         "register"=>"Регистрация",
+         "servicetype"=>"Тип Обслуживания",
+         "servicesahibkar"=>"Услуги для предпринимателей (Налоги, Бухгалтерия, Аудит и т.д.)",
+         "biznesveticaret"=>"Обучение бизнесу и торговле",
+         "pesehazirliq"=>"профессиональное обучение",
+         "xaricdetehsil"=>"обучение за границей",
+    ],
+];
